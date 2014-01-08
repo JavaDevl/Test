@@ -169,8 +169,9 @@ if(response == 1){
                     
     </head>
     <body>
-
+      
 <?php  include '../menubar/index.php' ?>
+        
 <form id="form" name="form" method="post" class="myform" action="regres.php" >
                 <div id="errordiv">Complete the form before submitting</div>
 
