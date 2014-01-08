@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>untitled</title>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+ 	<!--[if lt IE 8]>
+		<script src ="http://ie7-js.googlecode.com/svn/version/2.1(beta2)/IE8.js"></script>
+	<![endif]-->	
+        
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>        <style>
+
+</style>
+  <script>
+   
+  
+     function getURLParameter(name) {
+    return decodeURI(
+        (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]
+    );
+}
+ var s=getURLParameter("region");
+ 
+                    </script>     
+                    	<link rel="stylesheet" href="menubar/css/style.css" type="text/css" />
+                        <style>
+                             body{
+            background-image:url('menubar/back1.jpg');
+            background-repeat: repeat-x;      }
+                            #menu1{
+    margin-top: 80px;
+             background-image:url('menubar/back3.jpg');
+            background-repeat: repeat-x; 
+}</style>
+</head>
+
+<body >
+    <div style=" margin-left:20px; margin-top:8px; min-width:600px;"> <a href="">
+            <img id="logo1" src="menubar/logopicture.jpg" />
+                <img id="logo2" src="menubar/newsonfire.jpg" />
+        </a>  <div>
+                </div>
+        <br></div>
+      <div id="menu1">
+        <div id="menu2">
+    <div  style="position:absolute;">
+<ul  id="nav">
+	<!--<li  ><a style="height:19px;" class="homepage" href="#"><img style=" margin:-6px -6px -6px -6px;" src="menubar/newsonfire3.jpg" name=""/></a></li>-->
+
+        	<li  id="topstories"><a  href="?region=topstories">Top Stories</a></li>
+                <li  id="world" >
+                   <a  href="?region=world">World</a> 
+
+                </li>
+
+	<li id="bn"><a  href="?region=bn">Breaking news</a></li>
+	<li  id="business"><a  href="?region=business">Business</a></li>
+	<li  id="sport"><a  href="?region=sport">Sports</a></li>
+	<li  id="tech"><a  href="?region=tech">Technology</a></li>
+         <li  id="login" ><a  href="login/login.php">Login</a></li>
+</ul></div></div></div>
+    <script>
+        document.getElementById(s).className="current";
+
+          $( document ).ready(function() {
+          $("#nav  #topstories.current a").css({"background": "-webkit-gradient(linear, 21% 51%, 0% 0%, from(#00558d), to(#8d3600))","padding-top": "15px"});
+      $("#nav  #business.current a").css({"background": "-webkit-gradient(linear, 0% 50%, 79% 96%, from(#4b216c), to(#bfbfbf))","padding-top": "15px"});
+      $("#nav  #sport.current a").css({"background": "-webkit-gradient(linear, 0% 50%, 79% 96%, from(#b3b39a), to(#666633))","padding-top": "15px"});
+      $("#nav  #tech.current a").css({"background": "-webkit-gradient(linear, 0% 50%, 79% 96%, from(#9ab3cc), to(#336699))","padding-top": "15px"});
+  $("#nav  #bn.current a").css({"background": "-webkit-gradient(radial, 165 124, 0, 309 -243, 648, from(#790000), to(#bd8080))","padding-top": "15px"});
+$("#nav  #world.current a").css({"background": "-webkit-gradient(linear, left top, left bottom, from(#003300), to(#669966))","padding-top": "15px"});}
+  )
+    </script>
+
+</body>
+</html>	

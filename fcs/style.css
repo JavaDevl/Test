@@ -1,0 +1,59 @@
+/*
+	Featured Content Slider
+	by: Chris Coyier
+*/
+/**									{ margin: 0; padding: 0; }*/
+/*#wrapbody 									{ font-family: Arial, Helvetica, sans-serif; font-size: 14px; }*/
+
+					  				  
+/*
+	UTILITY STYLES
+*/				  				  
+					  				  
+.floatLeft 								{ float: left; margin-right: 10px;}
+.floatRight								{ float: right; }
+.clear 									{ clear: both; }
+#page-wrap a                                                                               { outline: none; }
+
+
+/*
+	PAGE STRUCTURE
+*/
+#page-wrap                                                                       {  width: 550px; margin: 25px auto; border:solid 3px #993333; visibility: hidden; position: relative; min-height: 400px; 
+                                                                                     background: url(images/bg_3.png) top center; }
+
+
+/*
+	TYPOGRAPHY
+*/
+ul										{ list-style: square inside; }
+/*#page-wrap a                                                               { color: #729dff; text-decoration: none; }*/
+#page-wrap a:hover, #page-wrap a:active                                                               { color: white; }
+blockquote                                                                      { padding: 0 20px; margin-left: 20px; border-left: 20px solid #ccc; font-size: 14px; 
+                                                                                  font-family: Georgia, serif; font-style: italic; margin-top: 10px;}
+
+/*
+	SLIDER
+*/
+.slider-wrap                                                    		{ border-top:solid 2px #FFFFFF; width: 483px; position: absolute; top: 50px; left: 32px; padding:0px 0px 2px 0px; }			
+.stripViewer .panelContainer 
+.panel ul									{ text-align: left; margin: 0 15px 0 32px; }
+.stripViewer                                                        		{ position: relative;border-bottom:solid 2px #FFFFFF;border-left:solid 2px #FFFFFF;border-right:solid 2px #FFFFFF; overflow: hidden; width: 483px; height: 297px; }
+.stripViewer .panelContainer                                                    { position: relative; left: 0; top: 0; }
+.stripViewer .panelContainer .panel                                             { float: left; height: 100%; position: relative; width: 483px; }
+.stripNavL, .stripNavR, .stripNav                                           	{ display: none; }
+.nav-thumb 									{  margin-right: 5px; width:60px; border:0; height:45px;}
+#movers-row									{ margin: 6px 0 0 62px; }
+#movers-row div                                                 		{ width: 16.6%; float: left; }
+#movers-row div a.cross-link                                                    { float: right; margin-top:-13px;}
+.photo-meta-data                                                        	{ background: url(images/transpBlack.png); padding:0px 5px 5px 5px; height: 50px; 
+										  margin-top: -60px; position: relative; z-index: 9999; color: white; }
+.photo-meta-data span                                                   	{ font-size: 13px;}
+.cross-link									{ display: block; width: 62px; margin-top: -5px; 
+                								  position: relative; padding-top: 8px; z-index: 9999; }
+.cross-link:hover                                                               {border-top: solid 3px #eee; }
+
+.cross-link img {width:65px; height:40px}
+.active-thumb                                                           	{ background: transparent url(images/icon-uparrowsmallwhite_3.png) top center no-repeat; border-top:solid 3px #993333; background-position:50% -180%;  }
+
+

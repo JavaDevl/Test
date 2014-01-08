@@ -1,0 +1,8 @@
+0:Ignore
+1:Confirm Without Action
+2:Confirm + Warning
+3:Confirm + Warning + delete
+4:Confirm + Infraction + delete
+5:Reject
+6:Reject + Warn sender
+7:Reject + Infract Sender

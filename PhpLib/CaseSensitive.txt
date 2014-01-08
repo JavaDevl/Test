@@ -1,0 +1,5 @@
+US:\bUS|Uncle Sam|U\.S\.\b
+GB:\bUK|U\.K\.\b
+PK:Pakistan|Islamabad
+NG:(^Nigeria|Nigerian|Abuja|Lagos)
+NE:(^Niger|Nigerien|Niamey)

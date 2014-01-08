@@ -1,0 +1,117 @@
+       body
+        {
+            background-color: #cccccc;
+        }
+        #articleregistrationwhole
+        {
+            border:solid 2px #993333;
+            padding:10px;
+            max-width: 1000px;
+            margin-right:auto;
+            margin-left:auto;
+            margin-top: 30px;
+            border-radius: 5px;
+           
+            background-color: #ffffff;
+        }
+        .divider
+        {
+            border-top:dashed 1px #cccccc; 
+                
+        }
+        .thumb
+        {
+            display:inline-block;
+            margin:10px 5px 5px 5px;
+            height:40px;
+            width:60px;
+            border:solid 1px black;
+            float : left;
+        }
+        .titlespanner
+        {
+            padding:3px;
+            border:solid 1px black;
+            display:inline-block;
+           
+        }
+        .locationspanner
+        {
+            padding:3px;
+             margin-top:10px;
+            float:top;
+            border:solid 1px black;
+            display:inline-block;
+        }
+                .datespanner
+        {
+            padding:2px;
+             margin-top:5px;
+            float:top;
+            border:solid 1px black;
+            display:inline-block;
+        }
+        #buttonarticle input
+        {
+            display:block;
+        }
+        #buttonarticle
+        { 
+            position:inherit;
+            margin-top: -55px;
+            border: solid 2px;
+            float:right;
+        }
+     
+        .editbody
+        {
+            border:dashed 1px #993333;
+                padding:15px;
+                margin:5px;
+            display: none;
+        }
+          .titlebody
+        {
+            border:dashed 1px #993333;
+                padding:15px;
+                margin:5px;
+            display: none;
+        }
+        .editbody img
+        {
+            margin:5px;
+        }
+        
+        
+        
+          #articleregistrationwhole .divider .updatetitle{
+                        text-decoration: none;
+display: inline-block;
+margin:5px;
+color:#000;
+border: dashed 1px #000;
+        }
+        #articleregistrationwhole>a{
+                        text-decoration: none;
+display: inline-block;
+margin:5px;
+margin-left: 50%;
+padding: 2px;
+        }
+        #articleregistrationwhole>a div
+        {
+            padding:4px;
+            text-decoration: none;
+            background-color: #993333;
+            color:#FFFFFF;
+        }
+        h2
+        {
+            text-align: center;
+            padding:2px;
+            background-color: #cccccc;
+            border: solid 2px #993333;
+            color:#993333;
+            display:inline-block;
+            margin-left:40%;
+        }

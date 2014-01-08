@@ -1,0 +1,34 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+
+        <script>
+            var Lib=Lib || {};
+Lib.Output=(function(){
+    var elem=document.getElementById("myid");
+function Write(msg)    { elem.innerHTML=msg;    }
+function SetColor(color){ elem.color=color; }
+    function Clear(){ elem.innerHTML=""; }
+
+return{
+    write:Write,
+    $:Write,
+    clear:Clear,
+    color:SetColor    
+};
+}())
+
+Lib.Output.clear();
+Lib.Output.write("ok");
+        </script>      
+        
+    </head>
+    <body>
+        <div>TODO write content</div>
+    </body>
+</html>

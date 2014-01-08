@@ -1,0 +1,9 @@
+0-24.9:L. Member
+25-49.9:Member
+50-99.9:Advanced Member
+100:Super Member
+Mod:Moderator
+SMod:Super Moderator
+Admin:Administrator
+SAdmin:Super Administrator
+O:Owner

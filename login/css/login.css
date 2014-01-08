@@ -1,0 +1,49 @@
+#loginform{
+                margin-top:100px; 
+
+}
+#loginform #info
+{    background-color: #fff;
+
+    border-color:white;
+    margin-bottom: -20px;
+    color:red;
+margin-left:auto;
+            margin-right:auto;}
+
+#loginform div
+            {
+            margin-left:auto;
+            margin-right:auto; 
+            width:450px; 
+            color:#fff; 
+            padding:35px 0px 35px 0px;
+            border-radius: 5px; border:solid 2px #722626; background: #993333;    
+            display:block;
+            }
+            #loginform label
+            {
+                text-align: center;
+                display:block;
+                margin-top: 5px;
+            }
+            #loginform label span
+            {
+                font-weight: bold;
+                display:inline-block;
+                width:80px;
+            }
+             #loginform label input
+            {
+                padding: 4px;
+                border-radius: 5px;
+                margin-left:5px;
+            }
+            #loginform label #submitlogin
+            {
+                padding:2px 15px 2px 15px ;
+                background:#fff;
+                color:#722626;
+                font-weight: bold;
+                border:solid 2px #722626; margin-right: -85px;
+            }

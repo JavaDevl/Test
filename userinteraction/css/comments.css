@@ -1,0 +1,191 @@
+            #buttons
+            {
+                margin:auto;
+            }
+            
+                #writingfeedbacks{ text-align: center; margin:auto; padding-bottom: 20px; font-size:18px;width:590px}
+            
+           #analysis{ 
+                opacity: 0.8;
+                background-color:#FFFFFF;
+                border-radius: 10px;
+                border:solid 2px #257272;
+                display:inline-block; 
+              
+                margin:10px 10px 10px 25px; 
+                padding:2px 2px 2px 2px;
+                     color:#ab9999;
+            }
+             #comment{ 
+                opacity: 0.8;
+                background-color:#FFFFFF;
+                border-radius: 10px;
+                border:solid 2px #993333;
+                display:inline-block; 
+                
+                margin:10px; 
+                padding:2px 2px 2px 2px;
+                                color:#ab9999;
+
+            }
+            
+            #charleft
+            {
+                background-color:#666; color:#fff; padding:3px;
+            }
+            
+            #viewcomments{ 
+                opacity: 0.8;
+                background-color:#FFFFFF;
+                border-radius: 10px;
+                border:solid 2px #257225;
+                display:inline-block; 
+                
+                margin:10px; 
+                padding:2px 2px 2px 2px;
+                                color:#ab9999;
+
+            }
+            
+            #comment:hover{
+                border:solid 2px #993333;
+                display:inline-block;  
+                /*padding:2px 25px 2px 2px;*/
+            /*background:url("icons/commenthover.png") no-repeat right;*/
+background-size:20px 20px;
+                background-color:#e5cccc;
+        /*        background-position: 95% 50%;*/
+}
+
+            #viewcomments:hover{
+                border:solid 2px #257225;
+                display:inline-block;  
+                /*padding:2px 25px 2px 2px;*/
+            /*background:url("icons/commenthover.png") no-repeat right;*/
+background-size:20px 20px;
+                background-color:#93b993;
+        /*        background-position: 95% 50%;*/
+}
+     #analysis:hover{
+                border:solid 2px #257272;
+                display:inline-block;  
+               
+/*            background:url("icons/analysis4.png") no-repeat right;
+background-size:20px 20px;*/
+                background-color:#99cccc;
+                /*background-position: 95% 50%;*/
+                
+}
+             #comment span
+      {
+          
+          font-weight: bold;
+          display:inline-block;
+          float:left;
+          z-index: 1;
+      }
+                   #viewcomments span
+      {
+          
+          font-weight: bold;
+          display:inline-block;
+          float:left;
+          z-index: 1;
+      }
+                   #analysis span
+      {
+          
+          font-weight: bold;
+          display:inline-block;
+          float:left;
+      }
+            #comment:hover span
+      {
+          
+          font-weight: bold;
+          color:#993333;
+          display:inline-block;
+          float:left;
+      }  
+                  #viewcomments:hover span
+      {
+          
+          font-weight: bold;
+          color:#1b551b ;
+          display:inline-block;
+          float:left;
+      }  
+                  #analysis:hover span
+      {
+          
+          font-weight: bold;
+          color:#257272;
+          display:inline-block;
+          float:left;
+      }     
+            
+            .icons{margin-left: 5px;width:20px;float:left; height:20px; margin-top: 3px; display:inline-block}
+          
+          #inputanalysis
+          {
+                           text-align: left;
+
+              margin:auto;
+               width:700px;
+              display:none
+          }
+            #inputcomment
+            {
+                margin-right:auto;
+                margin-left:auto;
+             text-align: left;
+             
+                width:700px;
+                display: none;
+            }
+            
+            #inputcomment textarea
+            {
+                max-height:120px; 
+                width: 700px;
+                max-width: 700px;
+                min-height:100px; 
+                display:block;
+                float:left;
+                
+            }
+            #inputcomment #addcoment
+            {
+                position:relative;
+                float:right;
+                margin-top: -3px;
+                margin-right: -6px;
+                border-top:inherit ;
+                border-right:inherit ;
+                padding:7px;
+                color:#FFF;
+                background-color: #993333;
+                font-size: 17px;
+                border-bottom-right-radius: 15px;
+            }
+              #inputanalysis #addanalysis
+            {
+                position:relative;
+                float:right;
+                margin-top: -3px;
+                margin-right: 0px;
+                border-left-color: #99cccc;
+                border-bottom-color: #99cccc;
+                border-top:inherit ;
+                border-right:inherit ;
+                padding:7px;
+                color:#FFF;
+               
+                background-color: #257272;
+                font-size: 17px;
+                border-bottom-right-radius: 15px;
+            }
+   #cleardiv
+   {
+       clear:both;
+   }

@@ -1,0 +1,29 @@
+/* 
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+
+  var items= {
+        "threads":
+        [
+        {"side":"fsa", "datetime":"2013-12-15","title":"Syria - FAS suicide attack vs al Kindi Hospital 20/12",
+            "description":"Fajer al-Sham al-Islamiya SVBIED truck attack colapsing al Kindi Hospital. Aleppo 20/12",
+            "embedvideo":"http://www.liveleak.com/ll_embed?f=de2759ed20b1", "status":"confirmed", "id":3},
+           {"side":"saa","datetime":"2013-12-15","title":"Battle of Adra",
+            "description":"Fajer al-Sham al-IsHere is {according to Syrian Perspective} how the battle of Adra, has played out for the last week. According to the map, the SAA has managed to make significant counter-advances in the city and should {at current rate} be expected to completely recapture the town sometime soon, as they've already managed to cut off supplies from Duma and have encircled the city its self. ",
+            "embedvideo":"//www.youtube.com/embed/LQ2HrTuLli8", "status":"confirmed", "id":4},
+                   {"side":"fsa","datetime":"2013-12-15","title":"Battle of Adra",
+            "description":"Fajer al-Sham al-IsHere is {according to Syrian Perspective} how the battle of Adra, has played out for the last week. According to the map, the SAA has managed to make significant counter-advances in the city and should {at current rate} be expected to completely recapture the town sometime soon, as they've already managed to cut off supplies from Duma and have encircled the city its self. ",
+            "embedvideo":"http://www.liveleak.com/ll_embed?f=695539de6c25","status":"confirmed", "id":4},
+                   {"side":"fsa","datetime":"2013-12-15","title":"Battle of Adra",
+            "description":"Fajer al-Sham al-IsHere is {according to Syrian Perspective} how the battle of Adra, has played out for the last week. According to the map, the SAA has managed to make significant counter-advances in the city and should {at current rate} be expected to completely recapture the town sometime soon, as they've already managed to cut off supplies from Duma and have encircled the city its self. ",
+            "embedvideo":"http://www.liveleak.com/ll_embed?f=de2759ed20b1", "status":"confirmed", "id":4},
+         {"side":"saa","datetime":"2013-12-15","title":"Battle of Adra",
+            "description":"Fajer al-Sham al-IsHere is {according to Syrian Perspective} how the battle of Adra, has played out for the last week. According to the map, the SAA has managed to make significant counter-advances in the city and should {at current rate} be expected to completely recapture the town sometime soon, as they've already managed to cut off supplies from Duma and have encircled the city its self. ",
+            "embedvideo":"http://www.liveleak.com/ll_embed?f=0d82f53ab091", "status":"confirmed", "id":4}
+
+        ]
+    
+    
+  }

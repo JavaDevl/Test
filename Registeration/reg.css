@@ -1,0 +1,112 @@
+         
+h1, form, button{border:0; margin:0; padding:0;}
+.spacer{clear:both; }
+/* ----------- My Form ----------- */
+.myform{
+    
+margin:0 auto;
+width:400px;
+padding:14px;
+margin-top: 70px;
+padding-bottom: 15px;
+background:#eee;
+}
+
+/* ----------- stylized ----------- */
+.stylized
+{
+border:solid 2px #ffffff;
+-moz-border-radius-topleft: 25px;
+-moz-border-radius-topright:25px;
+-moz-border-radius-bottomleft:25px;
+-moz-border-radius-bottomright:25px;
+-webkit-border-top-left-radius:25px;
+-webkit-border-top-right-radius:25px;
+-webkit-border-bottom-left-radius:25px;
+-webkit-border-bottom-right-radius:25px;
+border-radius:25px;
+padding-bottom: 15px;
+margin-top:10px;
+}
+
+
+.stylized p{
+font-size:18px;
+color:#666666;
+font-weight:bold;
+background-color: #fafafa;
+margin-right: 45px;
+margin-left: 60px;
+margin-bottom:20px;
+border:solid 1px #fff;
+padding-bottom:5px;
+text-align: center;
+}
+.stylized label{
+    
+display:block;
+font-weight:bold;
+text-align:right;
+width:140px;
+float:left;
+}
+.stylized .small{
+color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+}
+
+.stylized input{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:200px;
+margin:2px 0 20px 10px;
+}
+.stylized button{
+clear:both;
+margin-left:150px;
+width:125px;
+height:31px;
+background:#993333 no-repeat;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+border-radius: 5px;
+}
+.stylized .status
+{
+    float:left;width:30px;height:30px; margin-left:2px;
+}
+        .error {
+color: #D8000C;
+color:red; float:left;
+padding:4px 2px;
+display:block;
+width:200px;
+margin-top:-20px;
+margin-left:5px;
+}
+#errordiv
+{
+    visibility: hidden;
+    margin:0 auto;
+    padding-bottom:3px;
+    padding-top: 3px;
+font-size: 15px;
+margin-top: -10px;
+color: #D8000C;
+width:400px;
+text-align: center;
+background-color: #FFBABA;
+ border:solid 1px #D8000C;
+-moz-border-radius: 25px;
+-webkit-border-radius: 25px;
+border-radius: 25px;
+}

@@ -1,0 +1,211 @@
+/*body {
+ background: #e3e3e3;
+ text-align: center;
+
+}*/
+
+/* MENU */
+  #logo1{
+             display:block;
+            margin-top:-8px;
+            float:left;
+            border:0;
+  }
+        #logo2{
+            
+            display:block;
+            float:left;
+            margin-top:25px;
+            border:0;
+        }
+       
+      
+
+        #menu2{
+            
+margin-top: 80px;
+            height:37.5px;  
+            margin-left: 150px;
+            min-width: 850px;
+            position:relative;
+}
+#nav li.current a
+{
+    background-color: #FFFFFF;
+}
+ #nav #topstories a:hover{
+     background:-webkit-gradient(linear, 21% 51%, 0% 0%, from(#00558d), to(#8d3600));
+        background: -webkit-linear-gradient(top,#00558d, #8d3600);
+   background: -moz-linear-gradient(top,#00558d, #8d3600);
+   background: -ms-linear-gradient(top,#00558d, #8d3600);
+   background: -o-linear-gradient(top,#00558d, #8d3600);
+    font-weight: bold;
+color:#FFFFFF;
+ } 
+ #nav #login
+ {
+     float:right;border-left: 3px solid #fff
+ }
+
+ 
+ #nav #login a:hover
+ {
+     background: #993333;
+     color: #fff;
+ }
+ 
+ #nav #business a:hover{
+background:-webkit-gradient(linear, 0% 50%, 79% 96%, from(#4b216c), to(#bfbfbf));
+    font-weight: bold;
+color:#FFFFFF;
+ }
+  #nav #bn a:hover{
+background:-webkit-gradient(radial, 165 124, 0, 309 -243, 648, from(#790000), to(#bd8080));
+    font-weight: bold;
+color:#FFFFFF;
+ }
+
+#nav {
+        font-family: "Times New Roman",Georgia,Serif;
+ background-color: #fff;
+ float: left;
+ margin: 0; padding: 0;
+ border: 1px solid white;
+}
+
+#nav li a, #nav li {
+ float: left;
+
+ 
+}
+
+#nav li {
+ list-style: none;
+ position: relative;
+
+}
+
+#nav li a {
+ padding: 0.53em 1em;
+ text-decoration: none;
+   background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#cccccc));
+   background: -webkit-linear-gradient(top, #333333, #cccccc);
+   background: -moz-linear-gradient(top, #333333, #cccccc);
+   background: -ms-linear-gradient(top, #333333, #cccccc);
+   background: -o-linear-gradient(top, #333333, #cccccc);
+border-right: solid 2px #FFFFFF;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #ffffff;
+   font-size: 16px;
+   text-decoration: none;
+   vertical-align: middle;
+}
+
+
+/* Submenu */
+
+
+
+#nav li ul {
+ display: none;
+ position: absolute;
+ left: 0;
+ top: 100%;
+ padding: 0; margin: 0;
+}
+
+
+ #nav li ul li a:hover
+ {
+     color:#993333;
+     font-weight: bold;
+ }
+#nav li ul li, #nav li ul li a {
+ float: none;
+}
+
+#nav li ul li {
+ _display: inline; /* for IE6 */
+}
+
+#nav li ul li a {
+ width: 100px;
+ height: 20px;
+ display: block;
+ font-size:14px;
+}
+
+/* SUBSUB Menu */
+
+#nav li ul li ul {
+ display: none;
+}
+
+#nav li ul li:hover ul {
+ left: 100%;
+ top: 0;
+}
+
+
+
+    #nav #world a:hover {
+      background: -webkit-gradient(linear, left top, left bottom, from(#003300), to(#669966));
+   background: -webkit-linear-gradient(top,#003300, #669966);
+   background: -moz-linear-gradient(top, #003300, #669966);
+   background: -ms-linear-gradient(top, #003300, #669966);
+   background: -o-linear-gradient(top, #003300, #669966);
+   color: #FfF;
+   font-weight: bold;
+}
+/* start of lastly add */
+
+.hasChildren {
+	position: relative;
+	width: 5px; height: 5px;
+	background: black;
+	right : 0;
+	bottom: 0;
+}
+
+#nav li ul {
+ display: none;
+ position: absolute;
+ left: 0;
+ top: 100%;
+ padding: 0; margin: 0;
+}
+
+#nav li:hover > ul {
+    z-index:9999;
+ display: block;
+}
+
+#nav li ul li, #nav li ul li a {
+ float: none;
+} 
+/* end of lastly add */
+    #nav #sport a:hover {
+background:-webkit-gradient(linear, 41% 97%, 41% 48%, from(#b3b39a), to(#666633));
+
+   color: #FfF;
+   font-weight: bold;
+}
+    #nav #tech a:hover {
+background:-webkit-gradient(linear, 41% 0%, 2% 100%, from(#9ab3cc), to(#336699));
+
+   color: #FfF;
+   font-weight: bold;
+}
+  #nav #addarticle
+ {
+     float:right;
+    
+ }
+   #nav #addarticle a
+ {
+background:-webkit-gradient(linear, 41% 0%, 2% 100%, from(#993333), to(#cccccc));
+
+ }

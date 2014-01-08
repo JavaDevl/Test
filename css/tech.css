@@ -1,0 +1,126 @@
+
+.titlehome
+{
+
+margin:5px 5px;
+padding:10px 10px;
+font-size: 18px;
+     background-color:#FFFFFF;
+ color:#630f0f;
+margin-top: 10px
+}
+.titlehome p
+{
+    font-size: 15px;
+    color: #333333;
+        margin-bottom:-10px;
+}
+.titlehome:hover {
+background-color:#264c72;
+border-top:dashed 1px #FFFFFF;
+border-bottom:dashed 1px #FFFFFF;
+color:#993266;
+
+}
+.titlehome a:visited
+{
+    background-color: #88b1b2;
+}
+.titlehome:hover p{
+    color:#FFFFFF;
+    
+}
+.titlehome:hover small{
+    color:#FFFFFF;   
+}
+.titlehome:hover hr{
+    opacity:1;
+}
+.titlehome:hover a{
+   background-color: #ffffff;
+  
+}
+.titlehome:hover a:hover{
+   color: #0f3863;
+   background-color: #b29d88;
+}
+a:link {color:  #630f0f; text-decoration: none; }
+
+.titlehome a
+{
+    text-align: center;
+    font-size: 13px;
+    max-width:130px;
+    width:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    font-weight: bold;
+    padding-left:5px;
+    padding-right:5px;
+-moz-border-radius-topleft: 75px;
+-moz-border-radius-topright:75px;
+-moz-border-radius-bottomleft:75px;
+-moz-border-radius-bottomright:75px;
+-webkit-border-top-left-radius:75px;
+-webkit-border-top-right-radius:12px;
+-webkit-border-bottom-left-radius:75px;
+-webkit-border-bottom-right-radius:75px;
+border-top-left-radius:75px;
+border-top-right-radius:75px;
+border-bottom-left-radius:75px;
+border-bottom-right-radius:75px;
+}
+hr{
+opacity: 0.3;
+    margin-left:10px;
+    margin-right:10px;
+}
+small {color:#4d4d4d}
+body
+{
+    overflow: auto;
+}
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #999999;
+                        border:solid 1px #666666;
+
+
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #999999;
+
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+        border:solid 1px #630f0f;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #FFFFFF;
+}
+#postfatherhome{
+   /* background-color:#b01717;*/
+   font-family:"Times New Roman",Georgia,Serif;
+   margin-left:auto; 
+   margin-right:auto; 
+   background-color:#738699; 
+   max-width:500px;
+   min-width:200px;
+font-size:15px;
+border-right:dashed 1px #000000;
+border-left:dashed 1px #000000;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+padding-top:5px;
+padding-bottom:5px;
+margin-top: 20px;
+}
