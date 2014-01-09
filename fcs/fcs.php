@@ -1,21 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
 
-
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	
-	<title>Featured Content Slider</title>
-	
-	<link rel="stylesheet" type="text/css" href="fcs/style.css" />
-
-	<script type="text/javascript" src="fcs/js/cfile.js"></script> 
-	<!--compressed jquery jquery.easing and other file into one file cfile.js-->
-	<script type="text/javascript" src="fcs/js/cfile2.js"> </script>
-	
-</head>
-
-<body id="wrapbody">
+<div id="wrapbody">
 	<?php
             if($fm==null){
 
@@ -60,7 +44,7 @@ phpFastCache::set("mainpage".$reg,$fm);
 			</div>
 		</div>
 
-		<a href="#1" style="margin-left: 2px; margin-top:-7px; position:absolute;  " class="cross-link first-cross-link"><img <?php echo $fm[0][0] ?>  class="nav-thumb" alt="temp-thumb" /></a>
+		<a href="#1" style="margin-left: 2px; margin-top:-7px; position:absolute;  " class="cross-link first-cross-link "><img <?php echo $fm[0][0] ?>  class="nav-thumb" alt="temp-thumb" /></a>
 		<div id="movers-row">
 			<div><a href="#2" class="cross-link"><img <?php echo $fm[1][0] ?> class="nav-thumb" alt="temp-thumb" /></a></div>
 			<div><a href="#3" class="cross-link"><img <?php echo $fm[2][0] ?>  class="nav-thumb" alt="temp-thumb" /></a></div>
@@ -80,6 +64,5 @@ phpFastCache::set("mainpage".$reg,$fm);
 $cache->set($keyword_webpageup,$html, -5);
   // echo $html;
 ?>
-</body>
+</div>
 
-</html>
