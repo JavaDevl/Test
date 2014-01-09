@@ -8,8 +8,16 @@ and open the template in the editor.
     <head>
                 <?php include 'alertify.js0/alertlibrary.html'?>
             <link rel="shortcut icon" href="menubar/logopicture.jpg" type="image/jpg">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+	<link rel="stylesheet" type="text/css" href="fcs/style.css" />
+
+	<script type="text/javascript" src="fcs/js/jquery-1.2.6.min.js"></script> 
+	<script type="text/javascript" src="fcs/js/jquery-easing-compatibility.1.2.pack.js"></script> 
+	<script type="text/javascript" src="fcs/js/coda-slider.1.1.1.pack.js"></script> 
+	<script type="text/javascript" src="fcs/js/jquery-easing-1.3.pack.js"></script> 
+	<script type="text/javascript" src="fcs/js/ycodaslider-2.0.pack.js"></script> 
+	<!--compressed jquery jquery.easing and other file into one file cfile.js-->
+	<script type="text/javascript" src="fcs/js/cfile2.js"> </script>
         <title></title>
         <?php 
         
@@ -96,7 +104,7 @@ and open the template in the editor.
                          <span style="background-color:#3B5998; padding:3px 0px 3px 5px;font-size: 15px;display:block; font-family: 'Tahoma'; color:#fff">Like us on Facebook </span><br>
                          <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FNewsonFire&amp;width=292&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:auto;" allowTransparency="true"></iframe></iframe></iframe> 
 
- <?php include_once 'fileloading/retreivedata.php';
+ <?php //include_once 'fileloading/retreivedata.php';
 
        
 //        $time_start2 = microtime(true);
