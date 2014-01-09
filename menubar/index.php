@@ -110,7 +110,6 @@ $level=$fl->LoadFile();
       <div id="menu1">
         <?php } else {?>
             <br></div>
-    <div style="clear:both"></div>
       <div  id="menu11">
             <?php } ?>
       
