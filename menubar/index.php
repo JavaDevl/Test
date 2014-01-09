@@ -1,14 +1,9 @@
-<!DOCTYPE html>
 
-<html lang="en">
-<head>
-            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
  	<!--[if lt IE 8]>
 		<script src ="http://ie7-js.googlecode.com/svn/version/2.1(beta2)/IE8.js"></script>
 	<![endif]-->	
       
-<!--<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>-->
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
   <script>
    
@@ -56,9 +51,7 @@
     color:#fff;
 }
                    </style>
-</head>
 
-<body >
     <div style=" margin-left:20px; margin-top:8px;  min-width:850px;"> <a href="http://localhost/PhpProject5/homepage.php">
             <img id="logo1" src="http://localhost/PhpProject5/menubar/logopicture.jpg" />
                 <img id="logo2" src="http://localhost/PhpProject5/menubar/newsonfire.jpg" />
@@ -162,5 +155,3 @@ $("#nav  #world.current a").css({"background": "-webkit-gradient(linear, left to
 <script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.core.js" type="text/javascript"></script>
     <script src="js/scripts.js"></script>
 
-</body>
-</html>	
