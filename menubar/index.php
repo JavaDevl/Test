@@ -112,14 +112,14 @@ $level=$fl->LoadFile();
 <ul  id="nav">
 	<!--<li  ><a style="height:19px;" class="homepage" href="#"><img style=" margin:-6px -6px -6px -6px;" src="menubar/newsonfire3.jpg" name=""/></a></li>-->
 
-       <li  id="topstories"><a  href="<?php echo $_SERVER['SERVER_NAME'] ?>/Category/page.php?category=topstories">Top Stories</a></li>
-       <li  id="bn" ><a  href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/Category/page.php?category=politics">Politics</a>
+       <li  id="topstories"><a  href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/PhpProject5/Category/page.php?category=politics">Top Stories</a></li>
+       <li  id="bn" ><a  href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/PhpProject5/Category/page.php?category=politics">Politics</a>
  </li>
 
-	<li id="world"><a  href="<?php echo $_SERVER['SERVER_NAME'] ?>/PhpProject5/Category/page.php?category=entertainement">Entertainment</a></li>
-	<li  id="business"><a  href="<?php echo $_SERVER['SERVER_NAME'] ?>/PhpProject5/Category/page.php?category=bus">Business</a></li>
-	<li  id="sport"><a  href="<?php echo $_SERVER['SERVER_NAME'] ?>/PhpProject5/Category/page.php?category=sprt">Health</a></li>
-	<li  id="tech"><a  href="<?php echo $_SERVER['SERVER_NAME'] ?>/PhpProject5/Category/page.php?category=tech">Technology</a></li>
+	<li id="world"><a  href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/PhpProject5/Category/page.php?category=politics">Entertainment</a></li>
+	<li  id="business"><a  href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/PhpProject5/Category/page.php?category=politics">Business</a></li>
+	<li  id="sport"><a  href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/PhpProject5/Category/page.php?category=sprt">Health</a></li>
+	<li  id="tech"><a  href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/PhpProject5/Category/page.php?category=tech">Technology</a></li>
      <?php 
      if(is_null($username)){?>    <li  id="login" ><a  href="http://localhost/PhpProject5/login/login.php">Login</a></li>
      <?php }
@@ -148,8 +148,7 @@ $level=$fl->LoadFile();
   $("#nav  #bn.current a").css({"background": "-webkit-gradient(radial, 165 124, 0, 309 -243, 648, from(#790000), to(#bd8080))","padding-top": "15px"});
 $("#nav  #world.current a").css({"background": "-webkit-gradient(linear, left top, left bottom, from(#003300), to(#669966))","padding-top": "15px"});}
   )
-     
-
+      
     </script>
  <!-- it affects the adminlvlmanager-->
 <script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.core.js" type="text/javascript"></script>
