@@ -1,15 +1,5 @@
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
-<html>
-    <head>
-
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
          <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-       <title></title>
         <link href="userinteraction/css/comments.css" rel='stylesheet' />
         <script>
 //            $("#body").blur(function(event){
@@ -33,33 +23,17 @@ and open the template in the editor.
     </script>
   <script src="userinteraction/js/comments.js"> 
 
-</script> 
-<script>
-
-</script>
-    </head>
-        <body>
-
-        
+</script>         
         <?php
 
         $db=$dbcach;
 $myquer=$db->query("select comment_content, feedbacksum, date_added, username from comments where article_id=$id");
     
 echo "<div id='writingfeedbacks'>";
-
-
-
-
-
-    echo "<div id='buttons'><a href='javascript:void(0)'><div id='viewcomments'><span  style=''>View Comments ( $db->numrows )</span>
+    echo "<div id='buttons'><a href='javascript:void(0)'><div id='viewcomments'><span>View Comments ( $db->numrows )</span>
         </div></a>";
-    
-    
-    
-    
-    if (!is_null($username)){
-    echo "<a href='javascript:void(0)'><div id='comment'/><span  style=''>Add Comment </span></div></a>";    
+      if (!is_null($username)){
+    echo "<a href='javascript:void(0)'><div id='comment'/><span  >Add Comment </span></div></a>";    
         if ($userlevel>=0){
         echo "<a href='javascript:void(0)'><div id='analysis'/><span>Add Analysis </span>";
         }
@@ -69,31 +43,20 @@ echo "<div id='writingfeedbacks'>";
     else{
         echo "</div>";
     }
-    echo "<div  id='inputcomment'><span style='background-color:#ccc; padding:4px;'>Not more than 500 Characters</span><br><textarea name='mmm'></textarea><br>
-            <span id='charleft' style='' >500 Characters</span><input id='addcoment' type='button' value='Add comment'/></div>
-
-
-
-
-<div id='inputanalysis'><span style='background-color:#ccc; padding:4px;' style='' > Not Less than 300 Characters </span><textarea  id='editor' name='mmm'></textarea>
+    echo "<div  id='inputcomment'><span>Not more than 500 Characters</span><br><textarea name='mmm'></textarea><br>
+            <span id='charleft' >500 Characters</span><input id='addcoment' type='button' value='Add comment'/></div>
+<div id='inputanalysis'><span style='background-color:#ccc; padding:4px;' > Not Less than 300 Characters </span>
+<textarea  id='editor' name='mmm'></textarea>
 <input id='addanalysis' type='button' value='Add Analysis'/>        
 </div>
-
-
-
-
-        <div id='cleardiv'></div>
-                <div style='display:none; width:700px; margin:auto; margin-top:20px; word-wrap: break-word;  text-align:left; border:1px solid #722626; padding:5px; background-color: #fafafa'id='allcomments'>
+     <div id='cleardiv'></div>
+               <div  id='allcomments'>
                 </div>
-
 </div>";
-        echo "";
         ?>
-        <script>
+<script>
+        CKEDITOR.replace('editor');
     </script>
-     <script src="userinteraction/js/comments2.js">
-
-</script>   
+     <script src="userinteraction/js/comments2.js"></script>   
         
-    </body>
-</html>
+ 
