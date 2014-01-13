@@ -11,8 +11,8 @@ and open the template in the editor.
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
 	<link rel="stylesheet" type="text/css" href="fcs/style.css" />
 
-	<script type="text/javascript" src="fcs/js/jquery-1.2.6.min.js"></script> 
-	<script type="text/javascript" src="fcs/js/jquery-easing-compatibility.1.2.pack.js"></script> 
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="fcs/js/jquery-easing-compatibility.1.2.pack.js"></script> 
 	<script type="text/javascript" src="fcs/js/coda-slider.1.1.1.pack.js"></script> 
 	<script type="text/javascript" src="fcs/js/jquery-easing-1.3.pack.js"></script> 
 	<script type="text/javascript" src="fcs/js/ycodaslider-2.0.pack.js"></script> 
@@ -172,11 +172,22 @@ and open the template in the editor.
 
 
 
-         </div> <a class="twitter-timeline" href="https://twitter.com/Sciencegreat" data-widget-id="420631146121023488">Tweets by @Sciencegreat</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                    <div style="display:inline-block;float:right; margin-top: 600px;"><?php include 'fcs/topfcs.php';?></div>
+         </div> <a class="twitter-timeline" style="visibility: hidden;" href="https://twitter.com/Sciencegreat" data-widget-id="420631146121023488">Tweets by @Sciencegreat</a>
+         <div style="display:inline-block;float:right; margin-top: 600px;"><?php include 'fcs/topfcs.php';?></div>
               </div>
              <?php include 'menubar/footer.php';?>                                   
-       </body>
+    <script>
+        $(document).ready(function(){
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);
+}}(document,"script","twitter-wjs");
+
+$(".twitter-timeline").delay(1000).show(0);
+        });
+        
+        
+
+</script>
+<script src="js/storage.js"></script>           
+    </body>
     
 </html>
