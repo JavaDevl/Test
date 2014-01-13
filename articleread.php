@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <?php
         $id=$_GET['id'];
 
@@ -5,7 +7,6 @@ if(is_null($id))
      header( 'Location: http://localhost/PhpProject5/homepage.php' ) ;
 else
 session_start(); ?>
-<!DOCTYPE html>
 <html>
     <head>
 
@@ -59,7 +60,7 @@ session_start(); ?>
             <input type="hidden" id="articleid" value="<?php echo $id; ?>"/>
             <div id="title"> <?php     echo  $fc[0][0];?></div>
             
-            <div id="posttitle"><?php echo "By ".$fc[0][2]." the ".$fc[0][3] ?></div>
+            
                  <?php
                 if($userlevel>5)
                     echo '<div id="body"  contenteditable="true">';
@@ -72,7 +73,7 @@ session_start(); ?>
                    <div class="clearfix"></div>
                    <div id="detailarticle">
                     
-                <div style=" display:inline-block; width: 350px">    <b style="color: #993333">Keywords:</b> <?php 
+                <div class="detailinsider" >    <b>Keywords:</b> <?php 
                     
      $i=0;
                     foreach ($deckeyword as $value) {
@@ -81,7 +82,7 @@ session_start(); ?>
         echo $value;
      $i++;
 } ?>
-                   </div>    <b style="color: #993333">Status: </b><?php 
+                   </div>    <b>Status: </b><?php 
                    $conf= $fc[0]["confirmed"] ;
                    if($conf==1)
                        echo "Confirmed";
@@ -89,25 +90,19 @@ session_start(); ?>
                        echo "Featured";
                    ?>
 
-    <?php
-echo "<br>";
-?>
-                  <span style="  width: 350px; display:inline-block">  <b style="color: #993333">Event Location: </b><?php echo country::GetCountry($fc[0]["eventlocation"])." ". country::GetCountryFlagbyKey($fc[0]["eventlocation"]) ?>
-               </span>    <b style="color: #993333">Category: </b><?php echo $fc[0]["category"] ?>
+                   <br>
+                  <div class="detailinsider">  <b>Event Location: </b><?php echo  country::GetCountryFlagbyKey($fc[0]["eventlocation"]) ?>
+               </div > <b >Category: </b><?php echo $fc[0]["category"] ?><br>
+               <div class="detailinsider">  <b >Date: </b>   <?php echo $fc[0][3]; ?>
+               </div >  <b>Poster: </b><?php echo $fc[0][2] ?>
                    </div> 
                    <?php
                     include 'userinteraction/getanalysis.php'; ?>
-                
-                    
-                
                          <div class="clearfix"></div>
      <?php
         include 'userinteraction/comments.php'; ?>
         </div>
       <script src="userinteraction/js/getanalysis.js"></script>
-               
-              
-           
            <?php include 'menubar/footer.php';?>
     </body>
 </html>
