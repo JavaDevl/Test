@@ -1,4 +1,12 @@
-        .container
+body
+{
+    background-color: #eee;
+}
+.upper-description
+{
+border:solid 1px #993333;    
+}
+.container
         {
             margin-top:40px;
         }
@@ -26,7 +34,7 @@
         .container-well
         {
             
-            background-color: #993333;
+           border-color: #993333;
             min-width: 850px;
         }
       

@@ -10,24 +10,7 @@ and open the template in the editor.
       <?php 
       $cat=$_GET['category'];
       ?>
-        <script>
-            
-            var usefulfct=(function(){
-                var getcategory=function(){
-                    var prmstr = window.location.search.substr(1);
-var prmarr = prmstr.split ("&");
-
-var prmarr1 = prmarr.split ("=");
-
-                }
-            }());
-            
-var prmstr = window.location.search.substr(1);
-var prmarr = prmstr.split ("&");
-var prmarr1 = prmarr.split ("=");
-
-alert(prmarr1);
-        </script>
+     
           <LINK href="style/<?php echo $cat ?>.css" rel="stylesheet" type="text/css">
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -39,7 +22,7 @@ alert(prmarr1);
 
       include "../menubar/index.php";
         
-        $sql="select title, body, writer, date(pubdate), eventlocation, category, images from articles where  confirmed>=1 order by pubdate desc limit 10";
+        $sql="select title, body, writer, date(pubdate), eventlocation, category, images,id from articles where  confirmed>=1 order by pubdate desc limit 10";
      $db=new DbConnector();
     $fma= $db->fetchmyArray($sql);
     
@@ -63,7 +46,7 @@ alert(prmarr1);
                         
                         <div class="col-xs-10">
                             
-                    <div class="col-xs-8 title">
+                                 <div class="col-xs-8 title">
                         <?php echo $fma[0][0] ?>
                      </div>
                             <div class="col-xs-3 date ">
@@ -73,9 +56,10 @@ alert(prmarr1);
                      
                         <?php echo  country::GetCountryFlagbyKey($record["eventlocation"]) ?>
                      </div>
+                            
                           <div class="col-xs-12 description">
                    
-                        <?php echo $m2 ?> <b><em> Read more...</em></b>
+                        <?php echo $m2 ?> <a href="../articleread.php?id=<?php echo $fma[0][7] ?>"><b><em> Read more...</em></b></a>
                     </div> 
                         </div>
                     </div>

@@ -320,7 +320,7 @@ reg.arr(3,true);
       }
 
             </script>
-
+<?php include "../menubar/footer.php"; ?>
     </body>
 
 </html>
