@@ -16,6 +16,14 @@ body{
     text-decoration:underline;
 
 }
+.detailinsider
+{
+    display:inline-block; width: 350px;
+}
+#detailarticle b
+{
+    color:#993333;
+}
 #posttitle
 {
     
