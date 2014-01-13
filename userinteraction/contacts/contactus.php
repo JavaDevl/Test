@@ -31,7 +31,7 @@ position:absolute;
            background-color: #fff;
             margin-left: auto;
                 margin-right:auto;
-      margin-top:30px;
+      margin-top:80px;
       border:solid 5px #993333;
       width:500px;
        border-radius: 10px;
@@ -107,6 +107,10 @@ position:absolute;
             padding:2px;
             
         }
+        #footer
+        {
+            margin-top: 180px !important;
+        }
     </style>
     </head>
     
@@ -121,7 +125,13 @@ position:absolute;
         <div id="mainpage">
             <h3>Contact Us</h3>
             <label style="margin-top:30px;">
-                <span  class="column1">From:</span><b><?php echo $_SESSION['username']?></b><br>
+                <span id="spanfrom" class="column1">From:</span><b><?php     
+                echo (isset($_SESSION['username'])
+                        ? $_SESSION['username']
+                        :"<input type='textfield' name='from' id='from' />");
+                                                               ?>
+                <input type="hidden" id="username" name="username" value="<?php echo $_SESSION['username'] ?>" />
+                </b><br>
             </label> 
                         <label>
                 <span class="column1">Reason:</span><select id="reason" class="column2">
@@ -172,8 +182,8 @@ $(document).mousemove(function(e){
            
         $("#sendbutton").click(function(){
 
-            
-            if(!$("#title").val() || !$("#text").val())
+
+if(!$("#title").val() || !$("#text").val() ||  (!$("#username").val() && !$("#from").val()))
             {
                 Alertify.dialog.alert("Please fill all your fields");
                 return false;
@@ -186,6 +196,7 @@ $(document).mousemove(function(e){
                 success:function(msg)
                 {
                     Alertify.log.success(msg, 4000)
+                    $("#title, #text, #from").val("");
                 },
                 error:function(msg)
                 {
@@ -200,6 +211,6 @@ $(document).mousemove(function(e){
         })
     </script>
         
-      
+      <?php include "../../menubar/footer.php"; ?>
     </body>
 </html>

@@ -42,4 +42,5 @@ Alertify.log.success("Analysis successfully submitted");                        
      });        }
     }
 });
-         CKEDITOR.replace('editor');    
+
+
